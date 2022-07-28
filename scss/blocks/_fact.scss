@@ -1,0 +1,77 @@
+.fact {
+    
+    &__container {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__left {
+    }
+    
+    &__right {
+        max-width: 560px;
+        width: 100%;
+    }
+    
+    &__heading {
+        font-family: 'Libre Baskerville';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333333;
+        margin-bottom: 28px;
+    }
+    
+    &__text {
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(51, 51, 51, 0.9);
+        margin-bottom: 51px;
+    }
+    
+    &__subheading {
+        margin-bottom: 15px;
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    
+    &__main-text {
+        border-bottom: solid 2px #333333;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-family: 'Oxygen';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333333;
+    }
+
+    &__btn {
+        margin-top: 62px;
+        background-color: #333333;
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #EFEEE8;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    
+    &__btn:hover {
+        transform: scale(1.1);
+    }
+}

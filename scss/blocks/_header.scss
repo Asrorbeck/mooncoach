@@ -1,0 +1,27 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #333333;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    &__item-link {
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(51, 51, 51, 0.9);
+    }
+}
+
