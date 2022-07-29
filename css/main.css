@@ -405,6 +405,15 @@ template {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* reenie-beanie-regular - latin */
+@font-face {
+  font-family: 'Reenie Beanie';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/reenie-beanie-v16-latin-regular.woff2") format("woff2"), url("../fonts/reenie-beanie-v16-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -698,5 +707,105 @@ html {
 .page__inner-img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 54px;
+  padding-bottom: 80px;
+}
+
+.contact__left {
+  max-width: 484px;
+  padding: 24px;
+  padding-top: 400px;
+  background-image: url("./../img/contact-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact__text-wrapper {
+  padding: 24px;
+  background-color: #333333;
+}
+
+.contact__top-text {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(239, 238, 232, 0.9);
+  margin-bottom: 15px;
+}
+
+.contact__bottom-text {
+  font-family: 'Reenie Beanie';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #EFEEE8;
+}
+
+.contact__right {
+  max-width: 440px;
+  width: 100%;
+}
+
+.contact__right-heading {
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+  margin-bottom: 34px;
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact__name, .contact__text, .contact__email {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  border-bottom: 2px solid #333333;
+}
+
+.contact__text {
+  margin-bottom: 40px;
+}
+
+.contact__btn {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #EFEEE8;
+  background-color: #333333;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

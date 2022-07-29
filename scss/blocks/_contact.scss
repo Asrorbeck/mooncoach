@@ -1,0 +1,91 @@
+.contact {
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 54px;
+        padding-bottom: 80px;
+    }
+    
+    &__left {
+        max-width: 484px;
+        padding: 24px;
+        padding-top: 400px;
+        background-image: url('./../img/contact-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    &__text-wrapper {
+        padding: 24px;
+        background-color: #333333;
+    }
+    
+    &__top-text {
+        font-family: 'Libre Baskerville';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: rgba(239, 238, 232, 0.9);
+        margin-bottom: 15px;
+    }
+    
+    &__bottom-text {
+        font-family: 'Reenie Beanie';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        color: #EFEEE8;
+    }
+    
+    &__right {
+        max-width: 440px;
+        width: 100%;
+    }
+    
+    &__right-heading {
+        font-family: 'Libre Baskerville';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333333;
+        margin-bottom: 34px;
+    }
+    
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__name, &__text, &__email  {
+        font-family: 'Libre Baskerville';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: none;
+        border: none;
+        outline: none;
+        padding-left: 30px;
+        border-bottom: 2px solid #333333;
+    }
+
+    &__text {
+        margin-bottom: 40px;
+    }
+    
+    &__btn {
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #EFEEE8;
+        background-color: #333333;
+        cursor: pointer;
+    }
+}
